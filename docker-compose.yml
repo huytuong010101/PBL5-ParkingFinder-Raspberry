@@ -5,7 +5,7 @@ services:
         environment:
             - DISPLAY=$DISPLAY
         volumes:
-            - /home/pi/.Xauthority:/root/.Xauthority:rw
+            - ${HOME_PATH}/.Xauthority:/root/.Xauthority:rw
             - ./src:/usr/src/app
         devices: 
             - "/dev:/dev"
