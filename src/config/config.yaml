@@ -1,0 +1,15 @@
+SERVER:
+    URL: https://pbl5-api.debugbybrain.com/node/record
+NODE:
+    TOKEN: 123123123
+    NAME: Sieu thi big C
+PARK:
+    4:
+        NAME: Sieu thi big c
+        VIDEO_SRC: 0
+        CAPTURE_INTERVAL: 2
+MODEL:
+    YOLO_REPO:
+    PATH: models/model_v3.onnx
+    CONF: 0.25
+    IOU: 0.45
